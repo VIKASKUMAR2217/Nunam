@@ -20,7 +20,7 @@ int main(void)
 	initTimer();
 	
 	initUSART();
-	
+	/*Add comment*/
 	startTimer(1000, timerCallback); /* 1000 us */
 	
 	stopTimer();
