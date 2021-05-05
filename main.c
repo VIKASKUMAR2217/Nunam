@@ -17,7 +17,7 @@ callback_t callback = NULL;
 int main(void)
 {
 
-	initTimer();
+	initTimer(); /*Initialize the timer*/
 	
 	initUSART();
 	/*Add comment*/
