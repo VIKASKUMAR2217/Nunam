@@ -112,7 +112,7 @@ void TIMER0_IRQHandler(void)
 	if(count++ == 509)
 	{    
 		/*to print at every 509 tick count*/
-		callback();
+		callback(); //Calling to function pointer
 		
 		count = 0;
 	}
